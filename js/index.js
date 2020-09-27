@@ -25,7 +25,7 @@ function displayList(){
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
       loop: true,
-      margin:30,
+      margin:70,
       nav: true,
       autoplay: true,
       animateIn: "fadeIn",
@@ -39,7 +39,7 @@ $(document).ready(function () {
           items: 2,
         },
         1000: {
-          items: 3,
+          items: 10,
         },
       },
     });
