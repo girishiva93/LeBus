@@ -43,5 +43,12 @@ $(document).ready(function () {
         },
       },
     });
+      // Custom Button
+    $(".my-next-button").click(function() {
+        owl.trigger("next.owl.carousel");
+    });
+    $(".my-previous-button").click(function() {
+        owl.trigger("prev.owl.carousel");
+    });
   });
   // owl carousel js end
