@@ -1,0 +1,25 @@
+.count-row{
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  margin-left: 40px;
+  height: auto;
+}
+.count-col{
+    width:24.1%;
+    float: left;
+    margin-left: 10px;
+    height: auto;
+}
+.circle{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.counter {
+    font-size:50px;
+    text-align: center;
+
+    /* background-color: blue; */
+  }
