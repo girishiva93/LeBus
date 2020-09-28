@@ -260,4 +260,84 @@
     .circle  .fas,.far{
         font-size: 40px !important;
     }
+    /* vehicle service */
+    .vehicle-topic{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .trip-row{
+        content: "";
+        display: table;
+        clear: both;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .trip-col{
+        width:100%;
+        float: left;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        height: auto;
+        background-color: rgb(241, 241, 241,0.4);
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+        padding-bottom: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-sizing: border-box;
+        position: relative;
+    }
+    
+    .text-describe-col{
+        width: 80%;
+        float: left;
+    }
+    .price-describe-col{
+        width: 20%;
+        float: left;
+        position: relative;
+    }
+    
+    .text-describe-col li{
+        margin-left: 24px;
+        list-style-type: none;
+      }
+    
+    .vehicle-title{
+        text-align: center;
+    }
+    
+    .vehicle-description{
+        margin-left: 10px;
+    }
+    
+    .vehicle-img{
+        border-top: 20px;
+        transition: 0.5s;
+    
+    }
+    .vehicle-img:hover{
+        transform: scale(1.1);
+    }
+    .start-button{
+        background-color: rgb(31, 133, 51,0.8);
+        border: none;
+        cursor: pointer;
+        margin-top: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        margin-left: -54px;
+        font-size: 15px;
+        position: absolute;
+        top: -76px;
+        right: 0px;
+    }
+    
+    .car-seats{
+        margin-left: 5px;
+    }
   }
