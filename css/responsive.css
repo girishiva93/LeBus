@@ -33,7 +33,6 @@
       width: 50%;
     }
     /* contact */
-    /* contact */
   .contact-row {
     background-color: #ffffff;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -71,38 +70,10 @@
     height: 1000px;
     position: relative;
   }
-
   .contact-bg-img {
     width: 100% !important;
     height: 1000px !important;
     position: relative;
-  }
-  #fname,
-  #email,
-  #subject,
-  #number {
-    display: block;
-    width: 100%;
-    height: calc(1.5em + 0.75rem + 2px);
-    padding: 20px 15px;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    margin-bottom: 20px;
-    margin-left: 0%;
-  }
-  #message {
-    width: 100%;
-    margin-left: 0%;
-    margin-bottom: 10px;
-    padding-left: 15px;
-  }
-  .error {
-    font-size: 15px;
-    margin-top: -16px;
-    margin-left: 25px;
-    color: red;
-    display: none;
   }
   #submit {
     background: #4b9c5b;
@@ -120,16 +91,6 @@
     padding: 10px 24px;
     color: #fff;
     transition: 0.4s;
-  }
-  .get-touch-describe {
-    text-align: center;
-  }
-
-  .contact-details {
-    margin-bottom: 10px;
-    list-style-type: none;
-    cursor: pointer;
-    margin-left: 3%;
   }
   .contact-details a {
     text-decoration: none;
@@ -170,6 +131,94 @@
     transition: all 500ms ease !important;
   }
   /* about-us */
+  .about-con{
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+   .about-us-col{
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+  .about-heading {
+    margin-top: 30px;
+  }
+  .about-logo{
+    width: 80%;
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+  /* customer count */
+  .count-row{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    margin-left: 0px;
+    height: auto;
+  }
+  .count-col{
+      width:24.1%;
+      float: left;
+      margin-left: 0px;
+      height: auto;
+  }
+  .counter {
+      font-size:20px;
+      text-align: center;
+      /* background-color: blue; */
+    }
+    .circle  .fas, .circle .far{
+        font-size: 40px !important;
+    }
+    /* vehicle-service */
+    .vehicle-topic{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .trip-row{
+        content: "";
+        display: table;
+        clear: both;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .trip-col{
+        width:45%;
+        float: left;
+        margin-left: 10px;
+        margin-right: 22px;
+        margin-bottom: 20px;
+        height: auto;
+        background-color: rgb(241, 241, 241,0.4);
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+        padding-bottom: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-sizing: border-box;
+        position: relative;
+    }   
+    .start-button{
+        background-color: rgb(31, 133, 51,0.8);
+        border: none;
+        cursor: pointer;
+        margin-top: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
+        color: white;
+        margin-left: -54px;
+        font-size: 15px;
+        position: absolute;
+        top: -76px;
+        right: 0px;
+    }
+
   }
   @media screen and (max-width: 500px) {
     .service{
@@ -218,26 +267,6 @@
     width: 100% !important;
     height: 1057px !important;
     position: relative;
-  }
-  #fname,
-  #email,
-  #subject,
-  #number {
-    display: block;
-    width: 100%;
-    height: calc(1.5em + 0.75rem + 2px);
-    padding: 20px 15px;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    margin-bottom: 20px;
-    margin-left: 0%;
-  }
-  #message {
-    width: 100%;
-    margin-left: 0%;
-    margin-bottom: 10px;
-    padding-left: 15px;
   }
   #submit {
     background: #4b9c5b;
