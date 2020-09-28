@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/customercount.css">
     <link rel="stylesheet" href="/css/trip.css">
+    <link rel="stylesheet" href="/css/contact.css">
     <title>Le Bus Transportation</title>
 </head>
 <body>
@@ -277,6 +278,165 @@
       </div>
       </div>
     </div>
+    <!-- contact -->
+    <section>
+      <div
+      class="contact-bg-img"
+      style="background-image: url(/img/background.jpg); height: 700px"
+    > 
+      <div class="bg-color">
+        <div class="cen">
+          <div class="contact-row">
+            <div class="contact-col">
+              <h5 class="contact-heading">Send Message</h5>
+              <div id="form">
+                <form
+                  name="contact"
+                  method="POST"
+                  data-netlify="true"
+                  netlify-honeypot="bot-field"
+                >
+                  <input name="form-name" value="contact" type="hidden" />
+                  <input
+                    type="text"
+                    name="name"
+                    id="fname"
+                    placeholder="Full Name"
+                    required="required"
+                  />
+                  <p class="error">The Name must be more than four letters</p>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="example@gmail.com"
+                    required="required"
+                  />
+                  <p class="error">Please write the email correctly</p>
+                  <input
+                    type="subject"
+                    name="subject"
+                    id="subject"
+                    placeholder="Title"
+                    required="required"
+                  />
+                  <p class="error">The subject can not be empty</p>
+                  <input
+                    type="number"
+                    name="number"
+                    id="number"
+                    placeholder="number:(+977) 9999-999-999"
+                    required="required"
+                  />
+                  <p class="error">
+                    The number length must be greater or equal to 10
+                  </p>
+                  <textarea
+                    type="message"
+                    name="message"
+                    id="message"
+                    rows="5"
+                    data-rule="required"
+                    placeholder="Message"
+                    required="required"
+                  ></textarea>
+                  <p class="error">
+                    Message length must be higher than 50 words
+                  </p>
+                  <div class="verify-col">
+                    <div class="field">
+                      <div data-netlify-recaptcha="true"></div>
+                    </div>
+                  </div>
+                  <div class="verify-col">
+                    <input type="submit" id="submit" value="send message" />
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="contact-col">
+              <h5 class="contact-heading">Get in Touch</h5>
+              <p class="get-touch-describe">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+                quia veniam deserunt magnam eum, cupiditate impedit fugiat est
+                nam voluptatibus dolores tenetur libero saepe optio voluptatum
+                labore consectetur pariatur quae.
+              </p>
+              <li class="contact-details">
+                <i
+                  class="fas fa-map"
+                  style="font-size: 18px; margin-right: 10px"
+                ></i>
+                Kathmandu,Nepal
+              </li>
+              <li class="contact-details">
+                <i
+                  class="fas fa-mobile-alt"
+                  style="font-size: 18px; margin-right: 16px"
+                ></i>
+                <a href="tel:+977 9846695452" class="phone-link">
+                  (+977)-9846-695-452</a
+                >
+              </li>
+              <li class="contact-details">
+                <i
+                  class="far fa-paper-plane"
+                  style="font-size: 18px; margin-right: 10px"
+                ></i>
+                <a href="mailto:girishiva93@gmail.com">
+                  girishiva93@gmail.com
+                </a>
+                <h5 class="social-heading">stay connected with me</h5>
+                <div class="social-media-row">
+                  <div class="social-media-col">
+                    <div class="social-icon">
+                      <a
+                        href="https://www.facebook.com/aasisgiri21/"
+                        target="_blank"
+                      >
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="social-media-col">
+                    <div class="social-icon">
+                      <a href="mailto:girishiva93@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="social-media-col">
+                    <div class="social-icon">
+                      <a
+                        href="https://www.instagram.com/aashishgiri21/"
+                        target="_blank"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="social-media-col">
+                    <div class="social-icon">
+                      <a href="tel:+977 9846695452">
+                        <i class="fab fa-viber"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="social-media-col">
+                    <div class="social-icon">
+                      <a href="tel:+977 9846695452">
+                        <i class="fab fa-whatsapp"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
   </main>
 
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
