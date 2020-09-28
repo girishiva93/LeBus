@@ -118,35 +118,7 @@ nav{
   .nav-responsive-active {
     display: block !important;
   }
-  @media all and (max-width: 1200px){
-    .nav-media-items {
-      display: none;
-    }
-  }
-
-@media all and (max-width: 850px){
-  nav {
-    display: initial;
-    padding: 5px 0px;
-  }
-  nav .nav-items {
-    margin-left: -2%;
-    text-align: center;
-  } 
-
-  nav .responsive-button{
-    display: block;
-  }
-  nav .nav-items .items .item {
-    padding: 15px 0px;
-   }
-  .nav-items {
-    display: none;
-  }
-  nav .nav-items .items .item {
-    display: block;
-  }
-}
+  /* nav close responsive */
 /* about */
 .about-con{
   max-width: 1200px;
@@ -230,17 +202,7 @@ nav{
     font-size: 15px;
     font-weight: 500;
   }
-  @media screen and (max-width: 800px) {
-    .service{
-      width: 50%;
-    }
-  }
-  @media screen and (max-width: 500px) {
-    .service{
-      width: 100%;
-    }
-  }
-
+  /* service end responsive */
 /* vehicle items */
 .vehicle-row {
   display: flex;
