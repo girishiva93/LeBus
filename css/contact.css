@@ -68,7 +68,7 @@
     display: none;
   }
   #submit {
-    background: #0078ff;
+    background: #4b9c5b;;
     border: 0;
     margin-left: 28%;
     padding: 10px 24px;
@@ -78,7 +78,7 @@
   }
   #submit:hover {
     box-shadow: 0 0 0 4px #cde1f8;
-    background: #0078ff;
+    background: #4b9c5b;;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -115,7 +115,7 @@
     content: "";
     display: table;
     clear: both;
-    margin-top: 20px;
+    margin-top: 5px;
   }
   .social-media-col {
     width: 20% !important;
@@ -131,17 +131,17 @@
     width: 40px;
     font-size: 1.7rem;
     border-radius: 50%;
-    line-height: 1.4;
+    line-height: 1.5;
     text-align: center;
     margin: 0 15px 0 0;
-    box-shadow: 0 0 0 3px #0078ff;
+    box-shadow: 0 0 0 3px #4b9c5b;
     transition: all 500ms ease;
   }
   
   .social-icon:hover {
-    background-color: rgb(0, 120, 255, 0.3) !important;
+    background-color: rgb(75, 156, 91, 0.5) !important;
     color: white !important;
-    box-shadow: 0 0 0 3px #cde1f8 !important;
+    box-shadow: 0 0 0 3px rgb(0, 120, 255,0.5) !important;
     transition: all 500ms ease !important;
   }
   .verify-col {
