@@ -148,4 +148,11 @@
     width: 50%;
     float: left;
   }
+
+  .contact-bg-img{
+      font-size: 15px;
+  }
+  .social-heading{
+      font-size: 30px;
+  }
   /* ends here */
