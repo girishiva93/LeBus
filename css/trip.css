@@ -1,3 +1,10 @@
+.vehicle-topic{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
 .trip-row{
     content: "";
     display: table;
@@ -6,12 +13,12 @@
     height: auto;
 }
 .trip-col{
-    width:32%;
+    width:31%;
     float: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     height: auto;
-    background-color: #f1f1f1;
+    background-color: rgb(241, 241, 241,0.4);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     padding-bottom: 20px;
     border-radius: 20px;
@@ -31,7 +38,8 @@
 }
 
 .text-describe-col li{
-    margin-left: 10px;
+    margin-left: 24px;
+    list-style-type: none;
   }
 
 .vehicle-title{
@@ -54,8 +62,14 @@
     background-color: rgb(31, 133, 51,0.8);
     border: none;
     cursor: pointer;
-    margin-top: 15px;
-    width: 100%;
+    margin-top: 17px;
+    padding-left: 6px;
+    padding-right: 6px;
     color: white;
-    margin-left: -36px;
+    margin-left: -54px;
+    font-size: 15px;
+}
+
+.car-seats{
+    margin-left: 5px;
 }
