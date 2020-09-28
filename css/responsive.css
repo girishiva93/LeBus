@@ -257,7 +257,7 @@
       text-align: center;
       /* background-color: blue; */
     }
-    .fas,.far{
+    .circle  .fas,.far{
         font-size: 40px !important;
     }
   }
