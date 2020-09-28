@@ -73,12 +73,12 @@
   }
   .bg-color {
     background-color: rgb(73, 68, 78, 0.7);
-    height: 1120px;
+    height: 1057px !important;
     position: relative;
   }
   .contact-bg-img {
     width: 100% !important;
-    height: 1120px !important;
+    height: 1057px !important;
     position: relative;
   }
   #fname,
