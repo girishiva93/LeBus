@@ -32,6 +32,144 @@
     .service{
       width: 50%;
     }
+    /* contact */
+    /* contact */
+  .contact-row {
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 0px;
+    padding-top: 20px;
+    content: "";
+    display: table;
+    clear: both;
+    position: relative;
+    top: 60px;
+  }
+
+  .contact-col {
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 90% !important;
+  }
+  .contact-heading {
+    font-size: 1.7rem;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .contact-heading::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -3px;
+  }
+  .bg-color {
+    background-color: rgb(73, 68, 78, 0.7);
+    height: 1000px;
+    position: relative;
+  }
+
+  .contact-bg-img {
+    width: 100% !important;
+    height: 1000px !important;
+    position: relative;
+  }
+  #fname,
+  #email,
+  #subject,
+  #number {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 20px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 20px;
+    margin-left: 0%;
+  }
+  #message {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 10px;
+    padding-left: 15px;
+  }
+  .error {
+    font-size: 15px;
+    margin-top: -16px;
+    margin-left: 25px;
+    color: red;
+    display: none;
+  }
+  #submit {
+    background: #4b9c5b;
+    border: 0;
+    margin-left: 30%;
+    margin-top: 7px;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+  }
+  #submit:hover {
+    box-shadow: 0 0 0 4px #cde1f8;
+    background: #4b9c5b;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+  }
+  .get-touch-describe {
+    text-align: center;
+  }
+
+  .contact-details {
+    margin-bottom: 10px;
+    list-style-type: none;
+    cursor: pointer;
+    margin-left: 3%;
+  }
+  .contact-details a {
+    text-decoration: none;
+    color: #1e1e1e;
+  }
+  .social-heading {
+    margin-top: 10px;
+  }
+  .social-media-row {
+    width: 45%;
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 12px;
+  }
+  .social-media-col {
+    width: 20% !important;
+    float: left;
+  }
+  .logo-social {
+    width: 80%;
+  }
+  .social-icon {
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #4b9c5b;
+    transition: all 500ms ease;
+  }
+  .social-icon:hover {
+    background-color: rgb(75, 156, 91, 0.5) !important;
+    color: white !important;
+    box-shadow: 0 0 0 3px rgb(0, 120, 255,0.5) !important;
+    transition: all 500ms ease !important;
+  }
+  /* about-us */
   }
   @media screen and (max-width: 500px) {
     .service{
@@ -101,13 +239,6 @@
     margin-bottom: 10px;
     padding-left: 15px;
   }
-  .error {
-    font-size: 10px;
-    margin-top: -16px;
-    margin-left: 0;
-    color: red;
-    display: none;
-  }
   #submit {
     background: #4b9c5b;
     border: 0;
@@ -125,33 +256,7 @@
     color: #fff;
     transition: 0.4s;
   }
-
-  #reset {
-    background: #0078ff;
-    border: 0;
-    margin-left: 3%;
-    padding: 10px 24px;
-    color: #fff;
-    transition: 0.4s;
-  }
-  #reset:hover {
-    box-shadow: 0 0 0 4px #cde1f8;
-    background: #0078ff;
-    border: 0;
-    padding: 10px 24px;
-    color: #fff;
-    transition: 0.4s;
-  }
-  .get-touch-describe {
-    text-align: center;
-  }
-
-  .contact-details {
-    margin-bottom: 10px;
-    list-style-type: none;
-    cursor: pointer;
-  }
-  .contact-details a {
+   .contact-details a {
     text-decoration: none;
     color: #1e1e1e;
   }
@@ -189,14 +294,10 @@
     box-shadow: 0 0 0 3px rgb(0, 120, 255,0.5) !important;
     transition: all 500ms ease !important;
   }
-  .verify-col {
-    width: 100%;
-    float: left;
-  }
   .social-heading {
+    margin-top: 5px;
     font-size: 20px;
-    }
-    /* about */
+}
     /* about */
 .about-con{
     max-width: 100%;
@@ -204,12 +305,7 @@
     overflow: hidden;
     padding: 20px;
   }
-  .about-us-row::after{
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .about-us-col{
+   .about-us-col{
     float: left;
     width: 100%;
     padding: 10px;
@@ -217,20 +313,10 @@
   .about-heading {
     margin-top: 30px;
   }
-  .about-describe{
-    text-align: justify;
-    line-height: 30px;
-    margin-top: 15px;
-  }
   .about-logo{
     width: 80%;
     margin-left: 20px;
     margin-top: 10px;
-  }
-  .about-title{
-    text-align: center;
-    font-size: 50px;
-    text-transform: uppercase;
   }
   /* customer count */
   .count-row{
@@ -247,17 +333,12 @@
       margin-left: 0px;
       height: auto;
   }
-  .circle{
-      margin: 0 auto;
-      text-align: center;
-      display: block;
-  }
   .counter {
       font-size:20px;
       text-align: center;
       /* background-color: blue; */
     }
-    .circle  .fas,.far{
+    .circle  .fas, .circle .far{
         font-size: 40px !important;
     }
     /* vehicle service */
@@ -289,39 +370,7 @@
         overflow: hidden;
         box-sizing: border-box;
         position: relative;
-    }
-    
-    .text-describe-col{
-        width: 80%;
-        float: left;
-    }
-    .price-describe-col{
-        width: 20%;
-        float: left;
-        position: relative;
-    }
-    
-    .text-describe-col li{
-        margin-left: 24px;
-        list-style-type: none;
-      }
-    
-    .vehicle-title{
-        text-align: center;
-    }
-    
-    .vehicle-description{
-        margin-left: 10px;
-    }
-    
-    .vehicle-img{
-        border-top: 20px;
-        transition: 0.5s;
-    
-    }
-    .vehicle-img:hover{
-        transform: scale(1.1);
-    }
+    }   
     .start-button{
         background-color: rgb(31, 133, 51,0.8);
         border: none;
@@ -335,9 +384,5 @@
         position: absolute;
         top: -76px;
         right: 0px;
-    }
-    
-    .car-seats{
-        margin-left: 5px;
     }
   }
