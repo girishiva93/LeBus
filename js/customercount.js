@@ -16,3 +16,6 @@ $('.counter').each(function() {
       }
     });  
   });
+
+
+  

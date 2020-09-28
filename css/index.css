@@ -284,3 +284,11 @@ nav{
   background: #3498db !important;
   color: #fff !important;
 }
+
+footer {
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #4b9c5b;
+}
