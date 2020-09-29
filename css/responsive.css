@@ -67,12 +67,12 @@
   }
   .bg-color {
     background-color: rgb(73, 68, 78, 0.7);
-    height: 1000px;
+    height: 1150px;
     position: relative;
   }
   .contact-bg-img {
     width: 100% !important;
-    height: 1000px !important;
+    height: 1150px !important;
     position: relative;
   }
   #submit {
@@ -260,12 +260,12 @@
   }
   .bg-color {
     background-color: rgb(73, 68, 78, 0.7);
-    height: 1057px !important;
+    height: 1150px !important;
     position: relative;
   }
   .contact-bg-img {
     width: 100% !important;
-    height: 1057px !important;
+    height: 1150px !important;
     position: relative;
   }
   #submit {
