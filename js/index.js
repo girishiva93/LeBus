@@ -52,3 +52,6 @@ $(document).ready(function () {
     });
   });
   // owl carousel js end
+
+  // disable right click
+  // document.addEventListener('contextmenu', event => event.preventDefault());
